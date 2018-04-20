@@ -1,6 +1,0 @@
-D:\John Documents\Projects\MVC\TheBeerCatalogue\TheBeerCatalogue\TheBeerCatalogue.Business\bin\Debug\TheBeerCatalogue.Business.dll
-D:\John Documents\Projects\MVC\TheBeerCatalogue\TheBeerCatalogue\TheBeerCatalogue.Business\bin\Debug\TheBeerCatalogue.Business.pdb
-D:\John Documents\Projects\MVC\TheBeerCatalogue\TheBeerCatalogue\TheBeerCatalogue.Business\obj\Debug\TheBeerCatalogue.Business.csprojResolveAssemblyReference.cache
-D:\John Documents\Projects\MVC\TheBeerCatalogue\TheBeerCatalogue\TheBeerCatalogue.Business\obj\Debug\TheBeerCatalogue.Business.csproj.CoreCompileInputs.cache
-D:\John Documents\Projects\MVC\TheBeerCatalogue\TheBeerCatalogue\TheBeerCatalogue.Business\obj\Debug\TheBeerCatalogue.Business.dll
-D:\John Documents\Projects\MVC\TheBeerCatalogue\TheBeerCatalogue\TheBeerCatalogue.Business\obj\Debug\TheBeerCatalogue.Business.pdb
