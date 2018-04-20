@@ -1,9 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net.Http;
+using System.Threading.Tasks;
 using System.Web;
 using System.Web.Mvc;
 using TheBeerCatalogue.Business;
+using TheBeerCatalogue.Models;
 
 namespace TheBeerCatalogue.Controllers
 {
@@ -15,14 +18,12 @@ namespace TheBeerCatalogue.Controllers
             _beerInterface = beerInterface;
         }
 
-        public ActionResult GetBeer()
+        public BeerController() { }
+
+        public Task<BeerList> GetBeer()
         {
-            return View();
-        }
-        // GET: Beer
-        public ActionResult Index()
-        {
-            return View();
+            BeerFacade obj = new BeerFacade();
+            return obj.GetBeer();
         }
     }
 }
