@@ -21,6 +21,8 @@ namespace TheBeerCatalogue.Autofac
             builder.RegisterSource(new ViewRegistrationSource());
             builder.RegisterType<BeerFacade>().
                 As<BeerInterface>();
+            builder.RegisterType<BreweryFacade>().
+                As<BreweryInterface>();
 
             var container = builder.Build();
 
