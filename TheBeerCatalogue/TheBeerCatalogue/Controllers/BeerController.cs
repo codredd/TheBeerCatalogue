@@ -20,10 +20,17 @@ namespace TheBeerCatalogue.Controllers
 
         public BeerController() { }
 
-        public Task<BeerList> GetBeer()
+        public ActionResult Index()
+        {
+            return View();
+        }
+
+        public JsonResult GetBeer()
         {
             BeerFacade obj = new BeerFacade();
-            return obj.GetBeer();
+            //return obj.GetBeer();
+            BeerList beerList = obj.GetBeer();
+            return Json(beerList.data, JsonRequestBehavior.AllowGet);
         }
     }
 }

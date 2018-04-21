@@ -11,6 +11,6 @@ namespace TheBeerCatalogue.Business
 {
     public interface BeerInterface
     {
-        Task<BeerList> GetBeer();
+        BeerList GetBeer();
     }
 }
