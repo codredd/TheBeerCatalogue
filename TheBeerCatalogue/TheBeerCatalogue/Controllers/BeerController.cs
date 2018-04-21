@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Net.Http;
-using System.Threading.Tasks;
-using System.Web;
-using System.Web.Mvc;
+﻿using System.Web.Mvc;
 using TheBeerCatalogue.Business;
 using TheBeerCatalogue.Models;
 
@@ -17,9 +11,7 @@ namespace TheBeerCatalogue.Controllers
         {
             _beerInterface = beerInterface;
         }
-
-        public BeerController() { }
-
+        
         public ActionResult Index()
         {
             return View();
@@ -27,9 +19,7 @@ namespace TheBeerCatalogue.Controllers
 
         public JsonResult GetBeer()
         {
-            BeerFacade obj = new BeerFacade();
-            //return obj.GetBeer();
-            BeerList beerList = obj.GetBeer();
+            BeerList beerList = _beerInterface.GetBeer();
             return Json(beerList.data, JsonRequestBehavior.AllowGet);
         }
     }

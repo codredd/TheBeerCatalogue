@@ -42,3 +42,5 @@ D:\John Documents\Projects\MVC\TheBeerCatalogue\TheBeerCatalogue\TheBeerCatalogu
 D:\John Documents\Projects\MVC\TheBeerCatalogue\TheBeerCatalogue\TheBeerCatalogue\obj\Debug\TheBeerCatalogue.pdb
 D:\John Documents\Projects\MVC\TheBeerCatalogue\TheBeerCatalogue\TheBeerCatalogue\bin\Autofac.dll
 D:\John Documents\Projects\MVC\TheBeerCatalogue\TheBeerCatalogue\TheBeerCatalogue\bin\Autofac.xml
+D:\John Documents\Projects\MVC\TheBeerCatalogue\TheBeerCatalogue\TheBeerCatalogue\bin\Autofac.Integration.Mvc.dll
+D:\John Documents\Projects\MVC\TheBeerCatalogue\TheBeerCatalogue\TheBeerCatalogue\bin\Autofac.Integration.Mvc.xml
