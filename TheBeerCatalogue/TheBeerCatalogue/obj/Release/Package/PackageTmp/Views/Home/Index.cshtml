@@ -1,0 +1,24 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="jumbotron">
+    <h1>The Beer Catalogue</h1>
+    <p class="lead">"The Beer Catalogue is a PoC which makes use of Brewery DB API to retrieve the list of available Beers and then render it on the UI using jQuery Datatable.
+    The Default ASP.NET MVC template is used for the UI"</p>
+</div>
+
+<div class="row">
+    <div class="col-md-4">
+        <h2>Beer</h2>
+        <p>
+            Retrieve a details of Beer from around the globe
+        </p>
+        <p class="btn btn-default">@Html.ActionLink("Click Here", "Index", "Beer")</p>
+    </div>
+    <div class="col-md-4">
+        <h2>Brewery</h2>
+        <p>Retrieve the details of breweries</p>
+        <p class="btn btn-default">@Html.ActionLink("Click Here", "Index", "Brewery")</p>
+    </div>
+</div>

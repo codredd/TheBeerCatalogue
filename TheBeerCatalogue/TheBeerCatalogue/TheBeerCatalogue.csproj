@@ -159,17 +159,17 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Models\Available.cs" />
-    <Compile Include="Models\Beer.cs" />
-    <Compile Include="Models\BeerList.cs" />
-    <Compile Include="Models\BreweryData.cs" />
-    <Compile Include="Models\BreweryImages.cs" />
-    <Compile Include="Models\BreweryList.cs" />
-    <Compile Include="Models\Category.cs" />
-    <Compile Include="Models\GlassEntity.cs" />
-    <Compile Include="Models\Labels.cs" />
-    <Compile Include="Models\Srm.cs" />
-    <Compile Include="Models\Style.cs" />
+    <Compile Include="Models\Beer\Available.cs" />
+    <Compile Include="Models\Beer\Beer.cs" />
+    <Compile Include="Models\Beer\BeerList.cs" />
+    <Compile Include="Models\Brewery\BreweryData.cs" />
+    <Compile Include="Models\Brewery\BreweryImages.cs" />
+    <Compile Include="Models\Brewery\BreweryList.cs" />
+    <Compile Include="Models\Beer\Category.cs" />
+    <Compile Include="Models\Beer\GlassEntity.cs" />
+    <Compile Include="Models\Beer\Labels.cs" />
+    <Compile Include="Models\Beer\Srm.cs" />
+    <Compile Include="Models\Beer\Style.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -444,8 +444,6 @@
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
-    <Content Include="Views\Home\About.cshtml" />
-    <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Beer\Index.cshtml" />
     <Content Include="Views\Brewery\Index.cshtml" />
