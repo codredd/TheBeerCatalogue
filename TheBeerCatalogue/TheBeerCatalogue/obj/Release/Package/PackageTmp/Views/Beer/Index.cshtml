@@ -6,7 +6,7 @@
 
 
 <script src="~/Scripts/BeerScript.js"></script>
-<table id="myGrid" class="display">
+<table id="myGrid" class="tableStyle">
     <thead>
         <tr>
             <th>name</th>
@@ -22,3 +22,24 @@
         </tr>
     </tfoot>
 </table>
+
+<style type="text/css">
+    .tableStyle tr:hover {
+        background-color: lightcyan;
+    }
+
+    .tableStyle th{
+        background-color:lawngreen;
+    }
+
+    .tableStyle tr:nth-child(even) {
+        background-color: lightgray;
+    }
+
+    /*.tableStyle td,p {
+        max-width:200px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }*/
+</style>

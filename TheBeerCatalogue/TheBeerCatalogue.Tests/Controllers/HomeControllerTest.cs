@@ -10,13 +10,13 @@ namespace TheBeerCatalogue.Tests.Controllers
         [TestMethod]
         public void Index()
         {
-            // Arrange
+            // Initialize controller
             HomeController controller = new HomeController();
 
-            // Act
+            // Call the method
             ViewResult result = controller.Index() as ViewResult;
 
-            // Assert
+            //Assert the result
             Assert.IsNotNull(result);
         }
     }

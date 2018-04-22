@@ -6,7 +6,7 @@
 
 
 <script src="~/Scripts/BreweryScript.js"></script>
-<table id="myGrid" class="display">
+<table id="myGrid" class="tableStyle">
     <thead>
         <tr>
             <th>id</th>
@@ -24,3 +24,17 @@
         </tr>
     </tfoot>
 </table>
+
+<style type="text/css">
+    .tableStyle tr:hover {
+        background-color: lightcyan;
+    }
+
+    .tableStyle th {
+        background-color: lightskyblue;
+    }
+
+    .tableStyle tr:nth-child(even) {
+        background-color: lightgray;
+    }
+</style>

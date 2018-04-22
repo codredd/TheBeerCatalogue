@@ -1,7 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
 using System.Web.Mvc;
 using TheBeerCatalogue.Business;
 using TheBeerCatalogue.Models;
@@ -24,8 +21,20 @@ namespace TheBeerCatalogue.Controllers
 
         public JsonResult GetBrewery()
         {
-            BreweryList brewery = _breweryInterface.GetBrewery();
-            return Json(brewery.data, JsonRequestBehavior.AllowGet);
+            JsonResult result = null;
+
+            try
+            {
+                BreweryList brewery = _breweryInterface.GetBrewery();
+                result = Json(brewery.data, JsonRequestBehavior.AllowGet);
+            }
+
+            catch (Exception)
+            {
+                
+            }
+
+            return result ;
         }
 
 
