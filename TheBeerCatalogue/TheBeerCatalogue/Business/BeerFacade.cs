@@ -8,7 +8,7 @@ namespace TheBeerCatalogue.Business
     {
         WebClient client = new WebClient();
         BeerList beer = null;
-        private string beerUrl = "http://api.brewerydb.com/v2/beers?key=ee8a1a84bc76fd7d7ae6dd0dc45583e3";
+        private string beerUrl = "http://api.brewerydb.com/v2/beers?key=<put your Brewery DB API here>";
 
         public BeerList GetBeer()
         {
